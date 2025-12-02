@@ -1,8 +1,11 @@
 #Information Disclosure
 **Tested Dork**
+
 site:ex.com ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:invoice | intext:"budget approved") -sample -template -issue -forum -support -help -community -youtube 
 site:ex.com intext:"@gmail.com" intext:"name" -forums -license -club -dealer -services -support -help -HelpDoc
 site:ex.com ext:(inc | log | ini | mdb | env | php | asp | bak | conf | dat | sql) -support -services -app -login -search -help
+site:*.target.* "date of birth" ext:pdf
+
 intext:"@gmail.com" | intext:name ext:pdf -sample -MCINNIS -insurance -google -invester -entity -show -new -install -hi -how -set -guid -received -zoho site:exs.in | site:ex.com -forum -forums
 inurl:buy.php site:ex.com
 intitle:"index of" "/xampp/htdocs" | "C:/xampp/htdocs/" | "WebServers.xml" | intext
