@@ -10,3 +10,4 @@ intext:"@gmail.com" | intext:name ext:pdf -sample -MCINNIS -insurance -google -i
 inurl:buy.php site:ex.com
 intitle:"index of" "/xampp/htdocs" | "C:/xampp/htdocs/" | "WebServers.xml" | intext
 
+intitle:"dashboard [jenkins]"   //jenkins
