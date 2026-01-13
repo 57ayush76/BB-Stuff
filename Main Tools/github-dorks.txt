@@ -6,3 +6,9 @@
 
 # third level domain
 /[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.uploadcare\.com\//
+
+path:*.env
+path:*/config.json
+path:*/config.*
+path:*/actuator/*
+org:example path:*.env
