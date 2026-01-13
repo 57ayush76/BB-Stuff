@@ -6,6 +6,10 @@ site:ex.com intext:"@gmail.com" intext:"name" -forums -license -club -dealer -se
 site:ex.com ext:(inc | log | ini | mdb | env | php | asp | bak | conf | dat | sql) -support -services -app -login -search -help
 site:*.target.* "date of birth" ext:pdf
 
+site:*.x.com intext:spredsheets.google.com
+
+site:x.com "join.slack"
+
 intext:"@gmail.com" | intext:name ext:pdf -sample -MCINNIS -insurance -google -invester -entity -show -new -install -hi -how -set -guid -received -zoho site:exs.in | site:ex.com -forum -forums
 inurl:buy.php site:ex.com
 intitle:"index of" "/xampp/htdocs" | "C:/xampp/htdocs/" | "WebServers.xml" | intext
