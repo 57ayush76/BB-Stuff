@@ -1,0 +1,11 @@
+**Wordpress Misconfig To check **
+
+1: /wp-json/wp/v2/users                              wordpress user dislcosed
+2: /wp-content/uploads                               Directory listing
+3:  application level DOS (CVE-2018-6389) h1 report (https://hackerone.com/reports/1912540)
+4:  /wp-config.php                                   creadential disclosure 
+5:  xmlrpc.php                                       SSRF
+6:  /wp-cron.php                                     https://hackerone.com/reports/1888723
+7: /wp-register.php                                  (anyone can register){high}
+8: /wp-json/oembed/1.0/proxy?url=burpcolllaborator   SSRF
+9: /wp-admin/install.php                             If it says already installed then its not vulnerable
